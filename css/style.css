@@ -11,7 +11,6 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --title-white-color: #ffffff;
   --primary-white-color: #ffffff;
   --primary-grey-color: #2f303a;
   --secondary-bg-color: #f5f4fa;
@@ -34,7 +33,6 @@ body {
 
 .header-logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -82,15 +80,15 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--title-white-color);
+  color: var(--primary-white-color);
 }
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--title-white-color);
+  font-family: inherit;
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -159,20 +157,19 @@ body {
 }
 .footer-logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--title-white-color);
+  color: var(--primary-white-color);
 }
 
 .footer-adress-link {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71x;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--title-white-color);
+  color: var(--primary-white-color);
 }
 .footer-adress-link:hover,
 .footer-adress-link:focus {
