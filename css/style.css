@@ -20,7 +20,7 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-  font-family: 'roboto', 'railway';
+  font-family: 'roboto', 'sans serif';
 }
 .list {
   list-style: none;
@@ -49,7 +49,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
@@ -163,9 +163,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-
-.footer-adress-link {
+.footer-adress {
   font-style: normal;
+}
+.footer-adress-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -177,7 +178,6 @@ body {
 }
 
 .footer-contacts-link {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -187,4 +187,37 @@ body {
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
   color: var(--accent-color);
+}
+
+/* --------------------Portfolio---------------------- */
+/* --------------------Filtres section---------------------- */
+
+.filtres-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  font-family: inherit;
+  cursor: pointer;
+}
+.filtres-btn:hover,
+.filtres-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.filtres-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-color);
+  letter-spacing: 0.06em;
+}
+
+.filtres-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
